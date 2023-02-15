@@ -1,0 +1,31 @@
+{
+  "name": "@abcnews/aunty-pl",
+  "version": "1.0.0-pre",
+  "description": "Tools to extend @abcnews/aunty for Presentation Layer",
+  "repository": "abcnews/aunty-pl",
+  "license": "MIT",
+  "contributors": [
+    "Colin Gourlay <gourlay.colin@abc.net.au>"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "src/index",
+  "devDependencies": {
+    "release-it": "^15.1.4"
+  },
+  "dependencies": {
+    "@abcaustralia/postcss-config": "^15.2.0",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.0.2"
+  },
+  "peerDependencies": {
+    "@abcaustralia/nucleus": "*"
+  }
+}

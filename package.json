@@ -1,6 +1,6 @@
 {
   "name": "@abcnews/aunty-pl",
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "description": "Tools to extend @abcnews/aunty for Presentation Layer",
   "repository": "abcnews/aunty-pl",
   "license": "MIT",
